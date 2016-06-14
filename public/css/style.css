@@ -9,8 +9,41 @@ li{
   font-style: italic;
 }
 
+li:hover{
+
+  font-size: 40px;
+  font-style: italic;
+}
+
 a{
   text-decoration: none;
   color: black;
 
+}
+
+#gameDiv{
+  height: 800px;
+  width: 900px;
+
+  background-image: url("../image/game.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+#welcome{
+  margin: auto;
+  margin-left: 350px;
+}
+
+#nav{
+margin: auto;
+margin-left: 350px;
+}
+
+#aboutDiv{
+  height: 800px;
+  width: 900px;
+  background-image: url("../image/main.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
