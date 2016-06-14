@@ -15,8 +15,8 @@ app.get("/about", function(req,res){
     res.render('about');
   });
 
-app.get("/inspiration", function(req,res){
-    res.render('inspiration' );
+app.get("/game", function(req,res){
+    res.render('game' );
   });
 
 app.listen(8000, function () {
